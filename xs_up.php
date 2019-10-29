@@ -14,7 +14,6 @@
 
   //2.执行sql
   $xsxh = $_POST['xh'];
-  echo $xsxh;
   $xsxm = $_POST['xm'];
   $xsxb = $_POST['xb'];
   $xscsrq = $_POST['csrq'];
