@@ -51,7 +51,7 @@ div{
 
 <body>
  <h3>查询管理员信息</h3>
-<form action="xy_search.php" method="post"> 
+<form action="xs_search.php" method="post"> 
 <input enctype="multipart/form-data" placeholder="请输入学号"  name="xh" maxlength="8"/>
 <input type="submit" value="查询" id="btn_search" >
 </form>
@@ -109,7 +109,7 @@ div{
              </form>
              </div>
              <div>
-                <form action='xy_update.php' method="post">
+                <form action='xs_update.php' method="post">
                 <input type="hidden" name='xh' value=<?php echo $row["xh"]?>>
                 <input type='hidden' name='xm' value=<?php echo $row["xm"]?>>
                 <input type='hidden' name='xb' value=<?php echo $row["xb"]?>>

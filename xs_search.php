@@ -42,13 +42,7 @@
   </tr>
   <?php
 
-//  1. 链接数据库
-//使用define函数定义数据库服务器地址、用户名和密码常量
-  define("HOST","localhost");
-  define("USER","root");
-  define("PASSWD","123456");
-  //使用mysql_connect()函数，连接数据服务器
-  $conn=mysql_connect(HOST,USER,PASSWD);
+  require_once('conn.php');
   //选择所要操作的数据库
   $dbselect=mysql_select_db("stusys",$conn);
   mysql_query("set names 'utf8'");
